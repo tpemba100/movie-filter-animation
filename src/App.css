@@ -18,3 +18,23 @@ h2 {
   height: 2rem;
   font-size: 0.8rem;
 }
+
+/* FILTER */
+
+/* border: none; */
+.filter-container button {
+  margin-right: 2rem;
+  min-width: 5rem;
+  height: 2rem;
+  padding: 0, 5rem 1rem;
+  background-color: white;
+  color: rgb(65, 98, 168);
+  border-radius: 1rem;
+  border: 2px solid rgb(65, 98, 168);
+  font-weight: bold;
+  cursor: pointer;
+}
+button:active {
+  background: rgb(65, 98, 168);
+  color: white;
+}
