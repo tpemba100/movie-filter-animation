@@ -58,3 +58,5 @@ export default App;
 // Framer- motion for animation
 // Hooks -> use Effect and useState
 //
+// https://developers.themoviedb.org/3/genres/get-movie-list
+// https://www.framer.com/docs/
