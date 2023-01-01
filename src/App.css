@@ -10,6 +10,7 @@ img {
   width: 100%;
   height: 50vh;
   object-fit: cover;
+  margin: auto;
   border-radius: 1rem;
   margin-bottom: 1rem;
 }
@@ -34,7 +35,7 @@ h2 {
   font-weight: bold;
   cursor: pointer;
 }
-button:active {
+button.active {
   background: rgb(65, 98, 168);
   color: white;
 }
