@@ -1,7 +1,7 @@
 ### Filter Animation (movies)
 
 ## Description
-A simple web page displaying the movies using grids with features to filter them and extra animation using framer motion. 
+A simple web page displaying the movies using grids with features to filter them and with smooth animation using framer motion. 
 
 ## Features
 - Single Page Application (routes, router)
@@ -10,7 +10,7 @@ A simple web page displaying the movies using grids with features to filter them
 
 
 ## Need to Add project GIF
-![caption](img/todoapp.gif)
+![caption](react-filter-animation.gif)
 
 ## Technologies
 - React (Frontend View Framework)
