@@ -1,3 +1,23 @@
+body {
+  background-color: gainsboro;
+}
+
+/* HEADR */
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+}
+
+.header .logo {
+  padding: 20px 20px;
+}
+
+.main-h1 {
+  padding-top: 30px;
+}
 .popular-movies {
   display: grid;
   /* 1fr --> pick up all the screen size */
@@ -12,7 +32,6 @@ img {
   object-fit: cover;
   margin: auto;
   border-radius: 1rem;
-  margin-bottom: 1rem;
 }
 
 h2 {
@@ -38,4 +57,31 @@ h2 {
 button.active {
   background: rgb(65, 98, 168);
   color: white;
+}
+
+/* MOVIE CARD */
+.movie-card {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.movie-card img {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.movie-card h2 {
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+.movie-card p {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.movie-info {
+  /* background-color: azure; */
+  margin: 0;
+  padding: 0;
+  padding-left: 1rem;
 }

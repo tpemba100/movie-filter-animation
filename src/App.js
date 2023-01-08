@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Movie from "./components/Movie";
 import Filter from "./components/Filter";
 import { motion, AnimatePresence } from "framer-motion";
+import Header from "./components/Header/Header";
 
 function App() {
   const [popular, setPopular] = useState([]);
@@ -25,9 +26,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>www.freebollyhollywoodmovies.com</h1>
-      <h3>watch free bollywood and holywood movies</h3>
-      <p>Super SAFE and No Virus Website</p>
+      <Header />
+
+      <h1 className="main-h1">Filtering Animation </h1>
+      <p>using framer motion</p>
+
       {/* passing down data using properties */}
       <Filter
         popular={popular}
