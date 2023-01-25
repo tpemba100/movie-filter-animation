@@ -8,7 +8,7 @@ A simple web page displaying the movies using grids with features to filter them
 - Fitlering thru products
 - Smooth and beautiful animations
 
-
+## [Live Site](https://movie-filter-animation.vercel.app/)
 ## Need to Add project GIF
 ![caption](react-filter-animation.gif)
 
